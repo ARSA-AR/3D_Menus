@@ -1,0 +1,769 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Index - SAAR Bootstrap Template</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Amatic+SC:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet">
+
+
+    <script type="module" src="https://unpkg.com/@@google/model-viewer/dist/model-viewer.min.js"></script>
+    <!-- Head kısmına ekleyin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/jsm/loaders/GLTFLoader.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/jsm/controls/OrbitControls.js"></script>
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.3.0/model-viewer.min.js"></script>
+    <script type="module" src="https://unpkg.com/@@google/model-viewer/dist/model-viewer.min.js"></script>
+    <!-- three.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <!-- GLTFLoader ve OrbitControls için module kullanmamız gerekiyor, bu yüzden type="module" kullanacağız -->
+    <script type="module">
+        import { GLTFLoader } from 'https://cdn.jsdelivr.net/npm/three@0.128.0/examples/jsm/loaders/GLTFLoader.js';
+        import { OrbitControls } from 'https://cdn.jsdelivr.net/npm/three@0.128.0/examples/jsm/controls/OrbitControls.js';
+
+        // ... three.js kodunuz
+    </script>
+
+    <!-- =======================================================
+    * Template Name: Yummy
+    * Template URL: https://bootstrapmade.com/yummy-bootstrap-restaurant-website-template/
+    * Updated: Aug 07 2024 with Bootstrap v5.3.3
+    * Author: BootstrapMade.com
+    * License: https://bootstrapmade.com/license/
+    ======================================================== -->
+</head>
+
+<body class="index-page">
+
+    <header id="header" class="header d-flex align-items-center sticky-top">
+        <div class="container position-relative d-flex align-items-center justify-content-between">
+
+            <a href="/Index" class="logo d-flex align-items-center me-auto me-xl-0">
+                <!-- Uncomment the line below if you also wish to use an image logo -->
+                <!-- <img src="assets/img/logo.png" alt=""> -->
+                <h1 class="sitename">SAAR</h1>
+                <span>.</span>
+            </a>
+
+            <nav id="navmenu" class="navmenu">
+                <ul>
+                    <li><a href="#hero" class="active">Ana Sayfa<br></a></li>
+                    <li><a href="#about">Hakkımızda</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#events">Organizasyon</a></li>
+                    <li><a href="#gallery">Galeri</a></li>
+                    <li><a href="#contact">İletişim</a></li>
+                </ul>
+                <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+
+        <!-- Hero Section -->
+        <section id="hero" class="hero section light-background">
+
+            <div class="container">
+                <div class="row gy-4 justify-content-center justify-content-lg-between">
+                    <div class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center">
+                        <h1 data-aos="fade-up">Her Dilimde Taptaze Bir Mutluluk
+                        <p data-aos="fade-up" data-aos-delay="100">Günlük ürettiğimiz taze pastalarımız, özel tariflerimiz ve sevgiyle hazırlanan lezzetlerimizle her anınızı tatlandırıyoruz.</p>
+                        <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
+                            <a href="#menu" class="btn-get-started">Menu</a>
+                            <a href="https://www.youtube.com/watch?v=zztgNQvbtPc"
+                                class="glightbox btn-watch-video d-flex align-items-center"><i
+                                    class="bi bi-play-circle"></i><span>Video İzle</span></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 order-1 order-lg-2 hero-img" data-aos="zoom-out">
+    
+    <model-viewer 
+        src="@Url.Content("~/assets/models/menu2/almanPastasi.glb")" 
+        alt="Ana Sayfa 3D Gösterim" 
+        auto-rotate 
+        camera-controls 
+        shadow-intensity="1"
+        camera-orbit="45deg 55deg auto"
+        disable-zoom 
+        style="width: 100%; height: 500px; background-color: transparent;">
+    </model-viewer>
+
+</div>
+                </div>
+            </div>
+
+        </section><!-- /Hero Section -->
+
+        <!-- Stats Section -->
+        <section id="stats" class="stats section dark-background">
+
+            <img src="assets/img/stats-bg.jpg" alt="" data-aos="fade-in">
+
+            <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
+
+                <div class="row gy-4">
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="stats-item text-center w-100 h-100">
+                            <span data-purecounter-start="0" data-purecounter-end="+5" data-purecounter-duration="1"
+                                class="purecounter"></span>
+                            <p>Farklı Lokasyon</p>
+                        </div>
+                    </div><!-- End Stats Item -->
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="stats-item text-center w-100 h-100">
+                            <span data-purecounter-start="0" data-purecounter-end="+58" data-purecounter-duration="1"
+                                class="purecounter"></span>
+                            <p>Çalışan</p>
+                        </div>
+                    </div><!-- End Stats Item -->
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="stats-item text-center w-100 h-100">
+                            <span data-purecounter-start="0" data-purecounter-end="+120" data-purecounter-duration="1"
+                                class="purecounter"></span>
+                            <p>Tarif</p>
+                        </div>
+                    </div><!-- End Stats Item -->
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="stats-item text-center w-100 h-100">
+                            <span data-purecounter-start="0" data-purecounter-end="+9000" data-purecounter-duration="1"
+                                class="purecounter"></span>
+                            <p>Mutlu Müşteri</p>
+                        </div>
+                    </div><!-- End Stats Item -->
+                </div>
+            </div>
+        </section><!-- /Stats Section -->
+        <section id="menu" class="menu section">
+
+    <div class="container section-title" data-aos="fade-up">
+        <p> <span class="description-title">SAAR Menu</span></p>
+    </div>
+    <div class="container">
+
+        <ul class="nav nav-tabs d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+            <li class="nav-item">
+                <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#menu-yasPasta">
+                    <h4>Yaş Pasta</h4>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-kremaliPasta">
+                    <h4>Kremalı Pasta</h4>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-birlikteIyi">
+                    <h4>Birlikte İyi</h4>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-icecekler">
+                    <h4>İçecekler</h4>
+                </a>
+            </li>
+        </ul>
+
+        <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
+            @* Kategori1 - Yaş Pasta *@
+            <div class="tab-pane fade active show" id="menu-yasPasta">
+                <div class="tab-header text-center">
+                    <p>Menu</p>
+                    <h3>Yaş Pasta</h3>
+                </div>
+
+                <div class="row gy-5">
+                    <div class="col-lg-4 menu-item">
+                        <div class="model-wrapper"
+                            style="width: 100%; height: 300px; background: #f9f9f9; border-radius: 15px; overflow: hidden; margin-bottom: 15px;">
+                            <model-viewer src="@Url.Content("~/assets/models/menu1/yasPasta.glb")"
+                                alt="Starter Model 1" auto-rotate camera-controls ar shadow-intensity="1"
+                                camera-orbit="45deg 55deg 2.5m"
+                                style="width: 100%; height: 100%; background-color: #f9f9f9;">
+                            </model-viewer>
+                        </div>
+                        <h4>Meyveli Pasta <span class="badge bg-danger" style="font-size: 0.6em;">3D</span></h4>
+                        <p class="ingredients">Muz, Elma, Kivi, Üzüm, Portakal</p>
+                        <p class="price">350₺</p>
+                    </div>
+
+                    <div class="col-lg-4 menu-item">
+                        <div class="model-wrapper"
+                            style="width: 100%; height: 300px; background: #f9f9f9; border-radius: 15px; overflow: hidden; margin-bottom: 15px;">
+                            <model-viewer src="@Url.Content("~/assets/models/menu1/trilice.glb")"
+                                alt="Starter Model 2" auto-rotate camera-controls ar shadow-intensity="1"
+                                camera-orbit="45deg 55deg 2.5m"
+                                style="width: 100%; height: 100%; background-color: #f9f9f9;">
+                            </model-viewer>
+                        </div>
+                        <h4>Triliçe <span class="badge bg-danger" style="font-size: 0.6em;">3D</span></h4>
+                        <p class="price">120₺</p>
+                    </div>
+
+                    <div class="col-lg-4 menu-item">
+                        <div class="model-wrapper"
+                             style="width: 100%; height: 300px; background: #f9f9f9; border-radius: 15px; overflow: hidden; margin-bottom: 15px;">
+                            <model-viewer src="@Url.Content("~/assets/models/menu1/yasPasta.glb")"
+                                          alt="Starter Model 2" auto-rotate camera-controls ar shadow-intensity="1"
+                                          camera-orbit="45deg 55deg 2.5m"
+                                          style="width: 100%; height: 100%; background-color: #f9f9f9;">
+                            </model-viewer>
+                        </div>
+                        <h4>Frambuazlı Pasta <span class="badge bg-danger" style="font-size: 0.6em;">3D</span></h4>
+                        <p class="price">120₺</p>
+                    </div>
+                </div>
+            </div>
+            
+            @* Kategori2 - Kremalı Pasta *@
+            <div class="tab-pane fade" id="menu-kremaliPasta">
+                <div class="tab-header text-center">
+                    <p>Menu</p>
+                    <h3>Kremalı Pasta</h3>
+                </div>
+
+                <div class="row gy-5">
+                    <div class="col-lg-4 menu-item">
+                        <div class="model-wrapper"
+                            style="width: 100%; height: 300px; background: #f9f9f9; border-radius: 15px; overflow: hidden; margin-bottom: 15px;">
+                            <model-viewer src="@Url.Content("~/assets/models/menu2/almanPastasi.glb")"
+                                alt="Breakfast Model 1" auto-rotate camera-controls ar shadow-intensity="1"
+                                camera-orbit="45deg 55deg 2.5m"
+                                style="width: 100%; height: 100%; background-color: #f9f9f9;">
+                            </model-viewer>
+                        </div>
+                        <h4>Alman Pastası <span class="badge bg-danger" style="font-size: 0.6em;">3D</span>
+                        </h4>
+                        <p class="price">140₺</p>
+                    </div>
+
+                    <div class="col-lg-4 menu-item">
+                        <div class="model-wrapper"
+                            style="width: 100%; height: 300px; background: #f9f9f9; border-radius: 15px; overflow: hidden; margin-bottom: 15px;">
+                            <model-viewer src="@Url.Content("~/assets/models/menu2/ekler.glb")"
+                                alt="Breakfast Model 2" auto-rotate camera-controls ar shadow-intensity="1"
+                                camera-orbit="45deg 55deg 2.5m"
+                                style="width: 100%; height: 100%; background-color: #f9f9f9;">
+                            </model-viewer>
+                        </div>
+                        <h4>Ekler <span class="badge bg-danger" style="font-size: 0.6em;">3D</span></h4>
+                        <p class="price">60₺</p>
+                    </div>
+                </div>
+            </div>
+            
+            @* Kategori3 - Birlikte İyi (Eski lunch içeriği) *@
+            <div class="tab-pane fade" id="menu-birlikteIyi">
+                <div class="tab-header text-center">
+                    <p>Menu</p>
+                    <h3>Birlikte İyi</h3>
+                </div>
+
+                <div class="row gy-5">
+                    <div class="col-lg-4 menu-item">
+                        <div class="model-wrapper"
+                            style="width: 100%; height: 300px; background: #f9f9f9; border-radius: 15px; overflow: hidden; margin-bottom: 15px;">
+                            <model-viewer src="@Url.Content("~/assets/models/menu4/almanLipton.glb")"
+                                alt="Dinner Model 1" auto-rotate camera-controls ar shadow-intensity="1"
+                                camera-orbit="45deg 55deg 2.5m"
+                                style="width: 100%; height: 100%; background-color: #f9f9f9;">
+                            </model-viewer>
+                        </div>
+                        <h4>Alman Pastası + İce Tea <span class="badge bg-danger" style="font-size: 0.6em;">3D</span></h4>
+                        <p class="price">190₺</p>
+                    </div>
+
+                    <div class="col-lg-4 menu-item">
+                        <div class="model-wrapper"
+                            style="width: 100%; height: 300px; background: #f9f9f9; border-radius: 15px; overflow: hidden; margin-bottom: 15px;">
+                            <model-viewer src="@Url.Content("~/assets/models/menu4/eklerCola.glb")"
+                                alt="Dinner Model 2" auto-rotate camera-controls ar shadow-intensity="1"
+                                camera-orbit="45deg 55deg 2.5m"
+                                style="width: 100%; height: 100%; background-color: #f9f9f9;">
+                            </model-viewer>
+                        </div>
+                        <h4>Ekler + Le Cola <span class="badge bg-danger" style="font-size: 0.6em;">3D</span>
+                        </h4>
+                        <p class="price">110₺</p>
+                    </div>
+
+                    <div class="col-lg-4 menu-item">
+                        <div class="model-wrapper"
+                            style="width: 100%; height: 300px; background: #f9f9f9; border-radius: 15px; overflow: hidden; margin-bottom: 15px;">
+                            <model-viewer src="@Url.Content("~/assets/models/menu4/triliceRedbull.glb")"
+                                alt="Dinner Model 2" auto-rotate camera-controls ar shadow-intensity="1"
+                                camera-orbit="45deg 55deg 2.5m"
+                                style="width: 100%; height: 100%; background-color: #f9f9f9;">
+                            </model-viewer>
+                        </div>
+                        <h4>Triliçe + RedBull <span class="badge bg-danger" style="font-size: 0.6em;">3D</span>
+                        </h4>
+                        <p class="price">180₺</p>
+                    </div>
+                </div>
+            </div>
+            
+            @* Kategori4 - İçecekler (Eski dinner içeriği) *@
+            <div class="tab-pane fade" id="menu-icecekler">
+                <div class="tab-header text-center">
+                    <p>Menu</p>
+                    <h3>İçecekler</h3>
+                </div>
+
+                <div class="row gy-5">
+                    <div class="col-lg-4 menu-item">
+                        <div class="model-wrapper"
+                            style="width: 100%; height: 300px; background: #f9f9f9; border-radius: 15px; overflow: hidden; margin-bottom: 15px;">
+                            <model-viewer src="@Url.Content("~/assets/models/menu3/leCola.glb")"
+                                alt="Lunch Model 1" auto-rotate camera-controls ar shadow-intensity="1"
+                                camera-orbit="45deg 55deg 2.5m"
+                                style="width: 100%; height: 100%; background-color: #f9f9f9;">
+                            </model-viewer>
+                        </div>
+                        <h4>Le Cola <span class="badge bg-danger" style="font-size: 0.6em;">3D</span></h4>
+                        <p class="price">50₺</p>
+                    </div>
+
+                    <div class="col-lg-4 menu-item">
+                        <div class="model-wrapper"
+                            style="width: 100%; height: 300px; background: #f9f9f9; border-radius: 15px; overflow: hidden; margin-bottom: 15px;">
+                            <model-viewer src="@Url.Content("~/assets/models/menu3/liptonIcetea.glb")"
+                                alt="Lunch Model 2" auto-rotate camera-controls ar shadow-intensity="1"
+                                camera-orbit="45deg 55deg 2.5m"
+                                style="width: 100%; height: 100%; background-color: #f9f9f9;">
+                            </model-viewer>
+                        </div>
+                        <h4>Soğuk Çay <span class="badge bg-danger" style="font-size: 0.6em;">3D</span></h4>
+                        <p class="price">50₺</p>
+                    </div>
+
+                    <div class="col-lg-4 menu-item">
+                        <div class="model-wrapper"
+                            style="width: 100%; height: 300px; background: #f9f9f9; border-radius: 15px; overflow: hidden; margin-bottom: 15px;">
+                            <model-viewer src="@Url.Content("~/assets/models/menu3/redBull.glb")"
+                                alt="Lunch Model 2" auto-rotate camera-controls ar shadow-intensity="1"
+                                camera-orbit="45deg 55deg 2.5m"
+                                style="width: 100%; height: 100%; background-color: #f9f9f9;">
+                            </model-viewer>
+                        </div>
+                        <h4>RedBull <span class="badge bg-danger" style="font-size: 0.6em;">3D</span></h4>
+                        <p class="price">60₺</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+        <!-- About Section -->
+        <section id="about" class="about section">
+
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <h2>SAAR Pastane<br></h2>
+                <p><span>Hakkımızda</span> <span class="description-title"></span></p>
+            </div><!-- End Section Title -->
+
+            <div class="container">
+
+                <div class="row gy-4">
+                    <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
+                        <img src="assets/img/about.jpg" class="img-fluid mb-4" alt="">
+                        <div class="book-a-table">
+                            <h3>SAAR Pastane</h3>
+                            <p>Pastanemize Hoşgeldiniz</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-5" data-aos="fade-up" data-aos-delay="250">
+                        <div class="content ps-0 ps-lg-5">
+                            <p class="fst-italic">
+                                Pastanemiz, yılların deneyimi ve ustalığı ile her gün taze üretilen lezzetleri misafirlerimize sunmayı amaçlayan butik bir üretim atölyesidir. Geleneksel tarifleri modern dokunuşlarla birleştiriyor, kalite ve hijyenden ödün vermeden her ürünü özenle hazırlıyoruz. Misafirlerimize sadece lezzet değil, aynı zamanda güven ve samimiyet sunmayı önemsiyoruz.
+                            </p>
+                            <ul>
+                                <li><i class="bi bi-check-circle-fill"></i> <span>Günlük ve taze üretim</span></li>
+                                <li><i class="bi bi-check-circle-fill"></i> <span>Doğal ve güvenilir malzeme kullanımı</span></li>
+                                <li><i class="bi bi-check-circle-fill"></i> <span>Müşteri memnuniyetini ön planda tutmak</span></li>
+                            </ul>
+                            <p>
+                                Yıllar içinde, sadece pastalarımızla değil, güler yüzlü hizmetimizle de bölgemizin sevilen adreslerinden biri olduk. Her bir tarifimizde, tutku ve emeğin tatla buluşan hikâyesini yaşatmaya devam ediyoruz.
+                            </p>
+
+                            <div class="position-relative mt-4">
+                                <img src="assets/img/about-2.jpg" class="img-fluid" alt="">
+                                <a href="https://www.youtube.com/watch?v=Rd3DOhCKi5Y"
+                                    class="glightbox pulsating-play-btn"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section><!-- /About Section -->
+
+        <!-- Events Section -->
+        <section id="events" class="events section">
+
+            <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
+
+                <div class="swiper init-swiper">
+                    <script type="application/json" class="swiper-config">
+                        {
+                          "loop": true,
+                          "speed": 600,
+                          "autoplay": {
+                            "delay": 5000
+                          },
+                          "slidesPerView": "auto",
+                          "pagination": {
+                            "el": ".swiper-pagination",
+                            "type": "bullets",
+                            "clickable": true
+                          },
+                          "breakpoints": {
+                            "320": {
+                              "slidesPerView": 1,
+                              "spaceBetween": 40
+                            },
+                            "1200": {
+                              "slidesPerView": 3,
+                              "spaceBetween": 1
+                            }
+                          }
+                        }
+                    </script>
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide event-item d-flex flex-column justify-content-end"
+                            style="background-image: url(assets/img/events-1.jpg)">
+                            <h3>Özel Davetler</h3>
+                            <div class="price align-self-start">2000₺</div>
+                            <p class="description">
+                                Özel davetleriniz için hazırladığımız ürünler hem şık hem de lezzetli sunumlar içerir. Misafirlerinize benzersiz bir tat deneyimi yaşatmak için özenle çalışıyoruz. Küçük dokunuşlarla büyük fark yaratıyoruz.
+                            </p>
+                        </div><!-- End Event item -->
+
+                        <div class="swiper-slide event-item d-flex flex-column justify-content-end"
+                            style="background-image: url(assets/img/events-2.jpg)">
+                            <h3>Tasarım Partiler</h3>
+                            <div class="price align-self-start">5000₺</div>
+                            <p class="description">
+                                Kişiye özel konseptlere uygun pastalarla hayallerinizi gerçeğe dönüştürüyoruz. Renk, tema ve dekorasyon tamamen isteğinize göre şekillenir. Her detayda özgünlük ve yaratıcılık sunuyoruz.
+                            </p>
+                        </div><!-- End Event item -->
+
+                        <div class="swiper-slide event-item d-flex flex-column justify-content-end"
+                            style="background-image: url(assets/img/events-3.jpg)">
+                            <h3>Doğum Günü Partileri</h3>
+                            <div class="price align-self-start">1000₺</div>
+                            <p class="description">
+                                Özel günlerinizi daha da unutulmaz kılmak için taze ve kişiye özel doğum günü pastaları hazırlıyoruz. Her yaş grubuna ve konsepte uygun seçenekler sunuyoruz. Mutluluğunuzu lezzetle büyütmek için yanınızdayız.
+                            </p>
+                        </div><!-- End Event item -->
+
+                        <div class="swiper-slide event-item d-flex flex-column justify-content-end"
+                            style="background-image: url(assets/img/events-4.jpg)">
+                            <h3>Düğün Partileri</h3>
+                            <div class="price align-self-start">20000₺</div>
+                            <p class="description">
+                                Düğünler için hazırladığımız özel tasarım pastalar, zarif görünüm ve benzersiz tatları bir araya getirir. Konseptinize uygun dekorasyon ve özel malzeme seçimleri sunuyoruz. En özel gününüzde, masalarınızı lezzetle taçlandırıyoruz.
+                            </p>
+                        </div><!-- End Event item -->
+
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+
+            </div>
+
+        </section><!-- /Events Section -->
+        <!-- Gallery Section -->
+        <section id="gallery" class="gallery section light-background">
+
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <h2>SAAR Galeri</h2>
+                <p> <span class="description-title">Galeri</span></p>
+            </div><!-- End Section Title -->
+
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+                <div class="swiper init-swiper">
+                    <script type="application/json" class="swiper-config">
+                        {
+                          "loop": true,
+                          "speed": 600,
+                          "autoplay": {
+                            "delay": 5000
+                          },
+                          "slidesPerView": "auto",
+                          "centeredSlides": true,
+                          "pagination": {
+                            "el": ".swiper-pagination",
+                            "type": "bullets",
+                            "clickable": true
+                          },
+                          "breakpoints": {
+                            "320": {
+                              "slidesPerView": 1,
+                              "spaceBetween": 0
+                            },
+                            "768": {
+                              "slidesPerView": 3,
+                              "spaceBetween": 20
+                            },
+                            "1200": {
+                              "slidesPerView": 5,
+                              "spaceBetween": 20
+                            }
+                          }
+                        }
+                    </script>
+                    <div class="swiper-wrapper align-items-center">
+                        <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
+                                href="assets/img/gallery/gallery-1.jpg"><img src="assets/img/gallery/gallery-1.jpg"
+                                    class="img-fluid" alt=""></a></div>
+                        <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
+                                href="assets/img/gallery/gallery-2.jpg"><img src="assets/img/gallery/gallery-2.jpg"
+                                    class="img-fluid" alt=""></a></div>
+                        <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
+                                href="assets/img/gallery/gallery-3.jpg"><img src="assets/img/gallery/gallery-3.jpg"
+                                    class="img-fluid" alt=""></a></div>
+                        <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
+                                href="assets/img/gallery/gallery-4.jpg"><img src="assets/img/gallery/gallery-4.jpg"
+                                    class="img-fluid" alt=""></a></div>
+                        <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
+                                href="assets/img/gallery/gallery-5.jpg"><img src="assets/img/gallery/gallery-5.jpg"
+                                    class="img-fluid" alt=""></a></div>
+                        <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
+                                href="assets/img/gallery/gallery-6.jpg"><img src="assets/img/gallery/gallery-6.jpg"
+                                    class="img-fluid" alt=""></a></div>
+                        <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
+                                href="assets/img/gallery/gallery-7.jpg"><img src="assets/img/gallery/gallery-7.jpg"
+                                    class="img-fluid" alt=""></a></div>
+                        <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
+                                href="assets/img/gallery/gallery-8.jpg"><img src="assets/img/gallery/gallery-8.jpg"
+                                    class="img-fluid" alt=""></a></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+
+            </div>
+
+        </section><!-- /Gallery Section -->
+        <!-- Contact Section -->
+        <section id="contact" class="contact section">
+
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <h2>İletişim</h2>
+                <p><span class="description-title">İletişime Geçin</span></p>
+            </div><!-- End Section Title -->
+
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+                <div class="mb-5">
+                    <iframe style="width: 100%; height: 400px;"
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
+                        frameborder="0" allowfullscreen=""></iframe>
+                </div><!-- End Google Maps -->
+
+                <div class="row gy-4">
+
+                    <div class="col-md-6">
+                        <div class="info-item d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
+                            <i class="icon bi bi-geo-alt flex-shrink-0"></i>
+                            <div>
+                                <h3>Adres</h3>
+                                <p>Atakum/Samsun</p>
+                            </div>
+                        </div>
+                    </div><!-- End Info Item -->
+
+                    <div class="col-md-6">
+                        <div class="info-item d-flex align-items-center" data-aos="fade-up" data-aos-delay="300">
+                            <i class="icon bi bi-telephone flex-shrink-0"></i>
+                            <div>
+                                <h3>Bizi Arayın</h3>
+                                <p>+90 545 605 57 89</p>
+                            </div>
+                        </div>
+                    </div><!-- End Info Item -->
+
+                    <div class="col-md-6">
+                        <div class="info-item d-flex align-items-center" data-aos="fade-up" data-aos-delay="400">
+                            <i class="icon bi bi-envelope flex-shrink-0"></i>
+                            <div>
+                                <h3>Email</h3>
+                                <p>saar@pasta.com</p>
+                            </div>
+                        </div>
+                    </div><!-- End Info Item -->
+
+                    <div class="col-md-6">
+                        <div class="info-item d-flex align-items-center" data-aos="fade-up" data-aos-delay="500">
+                            <i class="icon bi bi-clock flex-shrink-0"></i>
+                            <div>
+                                <h3>Saatler<br></h3>
+                                <p><strong>Haftaiçi:</strong> 11.00 - 21.00; <strong>Haftasonu:</strong> 11.00-23.00</p>
+                            </div>
+                        </div>
+                    </div><!-- End Info Item -->
+
+                </div>
+                <form action="?handler=Contact" method="post" class="php-email-form" data-aos="fade-up"
+                    data-aos-delay="600">
+                    <div class="row gy-4">
+
+                        <div class="col-md-6">
+                            <input type="text" name="name" class="form-control" placeholder="İsim" required="">
+                        </div>
+
+                        <div class="col-md-6 ">
+                            <input type="email" class="form-control" name="email" placeholder="Email" required="">
+                        </div>
+
+                        <div class="col-md-12">
+                            <input type="text" class="form-control" name="subject" placeholder="Konu" required="">
+                        </div>
+
+                        <div class="col-md-12">
+                            <textarea class="form-control" name="message" rows="6" placeholder="Mesaj"
+                                required=""></textarea>
+                        </div>
+
+                        <div class="col-md-12 text-center">
+                            <div class="loading">Loading</div>
+                            <div class="error-message"></div>
+                            <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                            <button type="submit">Mesaj Gönder</button>
+                        </div>
+
+                    </div>
+                </form><!-- End Contact Form -->
+
+            </div>
+
+        </section><!-- /Contact Section -->
+
+    </main>
+
+    <footer id="footer" class="footer dark-background">
+
+        <div class="container">
+            <div class="row gy-3">
+                <div class="col-lg-3 col-md-6 d-flex">
+                    <i class="bi bi-geo-alt icon"></i>
+                    <div class="address">
+                        <h4>Adres</h4>
+                        <p>Atakum/Samsun</p>
+                        <p>Körfez mahallesi no:2</p>
+                        <p></p>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-3 col-md-6 d-flex">
+                    <i class="bi bi-telephone icon"></i>
+                    <div>
+                        <h4>İletişim</h4>
+                        <p>
+                            <strong>Phone:</strong> <span>+90 545 606 85 242</span><br>
+                            <strong>Email:</strong> <span>saar@pasta.com</span><br>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 d-flex">
+                    <i class="bi bi-clock icon"></i>
+                    <div>
+                        <h4>Opening Hours</h4>
+                        <p>
+                            <strong>Haftaiçi:</strong> <span>11.00 - 21.00</span><br>
+                            <strong>Haftasonu</strong>: <span>11.00 - 23.00</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <h4>Takip Edin</h4>
+                    <div class="social-links d-flex">
+                        <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container copyright text-center mt-4">
+            <p>© <span>Copyright</span> <strong class="px-1 sitename">SAAR</strong> <span>All Rights Reserved</span>
+            </p>
+            <div class="credits">
+                <!-- All the links in the footer should remain intact. -->
+                <!-- You can delete the links only if you've purchased the pro version. -->
+                <!-- Licensing information: https://bootstrapmade.com/license/ -->
+                <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Distributed by <a
+                    href="https://themewagon.com">ThemeWagon</a>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- Scroll Top -->
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Preloader -->
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
