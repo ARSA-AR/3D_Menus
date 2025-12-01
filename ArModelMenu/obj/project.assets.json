@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/salimsahin/Desktop/SAAR/WebSite/yummy-red-1.0.0/ArModelMenu/ArModelMenu.csproj",
+      "projectUniqueName": "/Users/salimsahin/Projects/3D_Menus/ArModelMenu/ArModelMenu.csproj",
       "projectName": "ArModelMenu",
-      "projectPath": "/Users/salimsahin/Desktop/SAAR/WebSite/yummy-red-1.0.0/ArModelMenu/ArModelMenu.csproj",
+      "projectPath": "/Users/salimsahin/Projects/3D_Menus/ArModelMenu/ArModelMenu.csproj",
       "packagesPath": "/Users/salimsahin/.nuget/packages/",
-      "outputPath": "/Users/salimsahin/Desktop/SAAR/WebSite/yummy-red-1.0.0/ArModelMenu/obj/",
+      "outputPath": "/Users/salimsahin/Projects/3D_Menus/ArModelMenu/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/salimsahin/.nuget/NuGet/NuGet.Config"
