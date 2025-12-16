@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ImgBvHnnDq+jrfL0AC9zi4PSipLZi+D2hyQerPXFxKY=",
+  "Hash": "lNCid/XIgAltBps3/1ph7K5Gv6yYtFOzT0OQQM2UjrQ=",
   "Source": "ArModelMenu",
   "BasePath": "_content/ArModelMenu",
   "Mode": "Default",
@@ -756,6 +756,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/assets/js/main.js"
+    },
+    {
+      "Identity": "/Users/salimsahin/Projects/3D_Menus/ArModelMenu/wwwroot/assets/models/menu1/frambuazPasta.glb",
+      "SourceId": "ArModelMenu",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/salimsahin/Projects/3D_Menus/ArModelMenu/wwwroot/",
+      "BasePath": "_content/ArModelMenu",
+      "RelativePath": "assets/models/menu1/frambuazPasta.glb",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/models/menu1/frambuazPasta.glb"
     },
     {
       "Identity": "/Users/salimsahin/Projects/3D_Menus/ArModelMenu/wwwroot/assets/models/menu1/trilice.glb",

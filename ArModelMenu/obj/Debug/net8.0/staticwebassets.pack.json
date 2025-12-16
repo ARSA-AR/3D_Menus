@@ -153,6 +153,10 @@
       "PackagePath": "staticwebassets/assets/js/main.js"
     },
     {
+      "Id": "/Users/salimsahin/Projects/3D_Menus/ArModelMenu/wwwroot/assets/models/menu1/frambuazPasta.glb",
+      "PackagePath": "staticwebassets/assets/models/menu1/frambuazPasta.glb"
+    },
+    {
       "Id": "/Users/salimsahin/Projects/3D_Menus/ArModelMenu/wwwroot/assets/models/menu1/trilice.glb",
       "PackagePath": "staticwebassets/assets/models/menu1/trilice.glb"
     },
