@@ -1,0 +1,7 @@
+/Users/salimsahin/Projects/3D_Menus/ArModelMenu/bin/Release/net8.0/publish/ArModelMenu
+/Users/salimsahin/Projects/3D_Menus/ArModelMenu/bin/Release/net8.0/publish/appsettings.Development.json
+/Users/salimsahin/Projects/3D_Menus/ArModelMenu/bin/Release/net8.0/publish/appsettings.json
+/Users/salimsahin/Projects/3D_Menus/ArModelMenu/bin/Release/net8.0/publish/ArModelMenu.dll
+/Users/salimsahin/Projects/3D_Menus/ArModelMenu/bin/Release/net8.0/publish/ArModelMenu.deps.json
+/Users/salimsahin/Projects/3D_Menus/ArModelMenu/bin/Release/net8.0/publish/ArModelMenu.runtimeconfig.json
+/Users/salimsahin/Projects/3D_Menus/ArModelMenu/bin/Release/net8.0/publish/ArModelMenu.pdb

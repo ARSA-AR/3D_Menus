@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "lNCid/XIgAltBps3/1ph7K5Gv6yYtFOzT0OQQM2UjrQ=",
+  "Hash": "Fw1GftinuVK353OgECh0yH5uQRogJOm5i8+iBrkD4w8=",
   "Source": "ArModelMenu",
   "BasePath": "_content/ArModelMenu",
   "Mode": "Default",
@@ -891,12 +891,12 @@
       "OriginalItemSpec": "wwwroot/assets/models/menu3/liptonIcetea.glb"
     },
     {
-      "Identity": "/Users/salimsahin/Projects/3D_Menus/ArModelMenu/wwwroot/assets/models/menu3/redbull.glb",
+      "Identity": "/Users/salimsahin/Projects/3D_Menus/ArModelMenu/wwwroot/assets/models/menu3/redBull.glb",
       "SourceId": "ArModelMenu",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/salimsahin/Projects/3D_Menus/ArModelMenu/wwwroot/",
       "BasePath": "_content/ArModelMenu",
-      "RelativePath": "assets/models/menu3/redbull.glb",
+      "RelativePath": "assets/models/menu3/redBull.glb",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -907,7 +907,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/assets/models/menu3/redbull.glb"
+      "OriginalItemSpec": "wwwroot/assets/models/menu3/redBull.glb"
     },
     {
       "Identity": "/Users/salimsahin/Projects/3D_Menus/ArModelMenu/wwwroot/assets/models/menu4/almanLipton.glb",
