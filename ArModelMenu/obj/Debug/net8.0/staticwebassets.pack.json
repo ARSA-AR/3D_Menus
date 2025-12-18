@@ -25,16 +25,8 @@
       "PackagePath": "staticwebassets/assets/img/apple-touch-icon.png"
     },
     {
-      "Id": "/Users/salimsahin/Projects/3D_Menus/ArModelMenu/wwwroot/assets/img/chefs/chefs-1.jpg",
-      "PackagePath": "staticwebassets/assets/img/chefs/chefs-1.jpg"
-    },
-    {
-      "Id": "/Users/salimsahin/Projects/3D_Menus/ArModelMenu/wwwroot/assets/img/chefs/chefs-2.jpg",
-      "PackagePath": "staticwebassets/assets/img/chefs/chefs-2.jpg"
-    },
-    {
-      "Id": "/Users/salimsahin/Projects/3D_Menus/ArModelMenu/wwwroot/assets/img/chefs/chefs-3.jpg",
-      "PackagePath": "staticwebassets/assets/img/chefs/chefs-3.jpg"
+      "Id": "/Users/salimsahin/Projects/3D_Menus/ArModelMenu/wwwroot/assets/img/beltur.jpg",
+      "PackagePath": "staticwebassets/assets/img/beltur.jpg"
     },
     {
       "Id": "/Users/salimsahin/Projects/3D_Menus/ArModelMenu/wwwroot/assets/img/events-1.jpg",
@@ -131,22 +123,6 @@
     {
       "Id": "/Users/salimsahin/Projects/3D_Menus/ArModelMenu/wwwroot/assets/img/team-shape.svg",
       "PackagePath": "staticwebassets/assets/img/team-shape.svg"
-    },
-    {
-      "Id": "/Users/salimsahin/Projects/3D_Menus/ArModelMenu/wwwroot/assets/img/testimonials/testimonials-1.jpg",
-      "PackagePath": "staticwebassets/assets/img/testimonials/testimonials-1.jpg"
-    },
-    {
-      "Id": "/Users/salimsahin/Projects/3D_Menus/ArModelMenu/wwwroot/assets/img/testimonials/testimonials-2.jpg",
-      "PackagePath": "staticwebassets/assets/img/testimonials/testimonials-2.jpg"
-    },
-    {
-      "Id": "/Users/salimsahin/Projects/3D_Menus/ArModelMenu/wwwroot/assets/img/testimonials/testimonials-3.jpg",
-      "PackagePath": "staticwebassets/assets/img/testimonials/testimonials-3.jpg"
-    },
-    {
-      "Id": "/Users/salimsahin/Projects/3D_Menus/ArModelMenu/wwwroot/assets/img/testimonials/testimonials-4.jpg",
-      "PackagePath": "staticwebassets/assets/img/testimonials/testimonials-4.jpg"
     },
     {
       "Id": "/Users/salimsahin/Projects/3D_Menus/ArModelMenu/wwwroot/assets/js/main.js",
