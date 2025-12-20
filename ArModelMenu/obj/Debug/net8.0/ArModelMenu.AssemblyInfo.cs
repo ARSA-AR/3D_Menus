@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ArModelMenu")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7bd2b1a58cad8ae0d556fea7bc0f64ef04fa57fd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e7d5f89008d6bc71567e807b6dfcf96fb368cffe")]
 [assembly: System.Reflection.AssemblyProductAttribute("ArModelMenu")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ArModelMenu")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

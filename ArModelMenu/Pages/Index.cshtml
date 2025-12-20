@@ -114,43 +114,49 @@
             </section>
             <!-- /Hero Section -->
 
-            <!-- About Section -->
-            <section id="about" class="about section">
+            <!-- Stats Section -->
+            <section id="stats" class="stats section dark-background">
 
-                <!-- Section Title -->
-                <div class="container section-title" data-aos="fade-up">
-                    <h2>MyMenu Pastanesi<br></h2>
-                    <p><span>Hakkımızda</span> <span class="description-title"></span></p>
-                </div><!-- End Section Title -->
+                <img src="assets/img/stats-bg.jpg" alt="" data-aos="fade-in">
 
-                <div class="container">
+                <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
 
                     <div class="row gy-4">
-                        <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
-                            <img src="assets/img/beltur.jpg" class="img-fluid mb-4" alt="">
-                        </div>
-                        <div class="col-lg-5" data-aos="fade-up" data-aos-delay="250">
-                            <div class="content ps-0 ps-lg-5">
-                                <p class="fst-italic">
-                                    Pastanemiz, yılların deneyimi ve ustalığı ile her gün taze üretilen lezzetleri misafirlerimize sunmayı amaçlayan butik bir üretim atölyesidir. Geleneksel tarifleri modern dokunuşlarla birleştiriyor, kalite ve hijyenden ödün vermeden her ürünü özenle hazırlıyoruz. Misafirlerimize sadece lezzet değil, aynı zamanda güven ve samimiyet sunmayı önemsiyoruz.
-                                </p>
-                                <ul>
-                                    <li><i class="bi bi-check-circle-fill"></i> <span>Günlük ve taze üretim</span></li>
-                                    <li><i class="bi bi-check-circle-fill"></i> <span>Doğal ve güvenilir malzeme kullanımı</span></li>
-                                    <li><i class="bi bi-check-circle-fill"></i> <span>Müşteri memnuniyetini ön planda tutmak</span></li>
-                                </ul>
-                                <p>
-                                    Yıllar içinde, sadece pastalarımızla değil, güler yüzlü hizmetimizle de bölgemizin sevilen adreslerinden biri olduk. Her bir tarifimizde, tutku ve emeğin tatla buluşan hikâyesini yaşatmaya devam ediyoruz.
-                                </p>
 
+                        <div class="col-lg-3 col-md-6">
+                            <div class="stats-item text-center w-100 h-100">
+                                <span data-purecounter-start="0" data-purecounter-end="+5" data-purecounter-duration="1"
+                                    class="purecounter"></span>
+                                <p>Farklı Lokasyon</p>
                             </div>
-                        </div>
+                        </div><!-- End Stats Item -->
+
+                        <div class="col-lg-3 col-md-6">
+                            <div class="stats-item text-center w-100 h-100">
+                                <span data-purecounter-start="0" data-purecounter-end="+58" data-purecounter-duration="1"
+                                    class="purecounter"></span>
+                                <p>Personel</p>
+                            </div>
+                        </div><!-- End Stats Item -->
+
+                        <div class="col-lg-3 col-md-6">
+                            <div class="stats-item text-center w-100 h-100">
+                                <span data-purecounter-start="0" data-purecounter-end="+120" data-purecounter-duration="1"
+                                    class="purecounter"></span>
+                                <p>Tarif</p>
+                            </div>
+                        </div><!-- End Stats Item -->
+
+                        <div class="col-lg-3 col-md-6">
+                            <div class="stats-item text-center w-100 h-100">
+                                <span data-purecounter-start="0" data-purecounter-end="+9000" data-purecounter-duration="1"
+                                    class="purecounter"></span>
+                                <p>Mutlu Müşteri</p>
+                            </div>
+                        </div><!-- End Stats Item -->
                     </div>
-
                 </div>
-
-            </section>
-            <!-- /About Section -->
+            </section><!-- /Stats Section -->
 
             <!-- Menu Section -->
             <section id="menu" class="menu section">
@@ -351,34 +357,6 @@
                             <div class="col-lg-4 menu-item">
                                 <div class="model-wrapper"
                                     style="width: 100%; height: 300px; background: #f9f9f9; border-radius: 15px; overflow: hidden; margin-bottom: 15px;">
-                                    <model-viewer src="@Url.Content("~/assets/models/menu4/latteAlmanPastasi.glb")"
-                                        alt="Dinner Model 2" auto-rotate camera-controls ar shadow-intensity="1"
-                                        camera-orbit="45deg 55deg 2.5m"
-                                        style="width: 100%; height: 100%; background-color: #f9f9f9;">
-                                    </model-viewer>
-                                </div>
-                                <h4>Alman Pastası + Latte <span class="badge bg-danger" style="font-size: 0.6em;">3D</span>
-                                </h4>
-                                <p class="price">110₺</p>
-                            </div>
-
-                            <div class="col-lg-4 menu-item">
-                                <div class="model-wrapper"
-                                    style="width: 100%; height: 300px; background: #f9f9f9; border-radius: 15px; overflow: hidden; margin-bottom: 15px;">
-                                    <model-viewer src="@Url.Content("~/assets/models/menu4/frambuazCay.glb")"
-                                        alt="Dinner Model 2" auto-rotate camera-controls ar shadow-intensity="1"
-                                        camera-orbit="45deg 55deg 2.5m"
-                                        style="width: 100%; height: 100%; background-color: #f9f9f9;">
-                                    </model-viewer>
-                                </div>
-                                <h4>Frambuazlı Pasta + Çay <span class="badge bg-danger" style="font-size: 0.6em;">3D</span>
-                                </h4>
-                                <p class="price">180₺</p>
-                            </div>
-
-                            <div class="col-lg-4 menu-item">
-                                <div class="model-wrapper"
-                                    style="width: 100%; height: 300px; background: #f9f9f9; border-radius: 15px; overflow: hidden; margin-bottom: 15px;">
                                     <model-viewer src="@Url.Content("~/assets/models/menu4/almanLipton.glb")"
                                         alt="Dinner Model 1" auto-rotate camera-controls ar shadow-intensity="1"
                                         camera-orbit="45deg 55deg 2.5m"
@@ -387,6 +365,32 @@
                                 </div>
                                 <h4>Alman Pastası + İce Tea <span class="badge bg-danger" style="font-size: 0.6em;">3D</span></h4>
                                 <p class="price">190₺</p>
+                            </div>
+
+                            <div class="col-lg-4 menu-item">
+                                <div class="model-wrapper"
+                                    style="width: 100%; height: 300px; background: #f9f9f9; border-radius: 15px; overflow: hidden; margin-bottom: 15px;">
+                                    <model-viewer src="@Url.Content("~/assets/models/menu4/latteAlmanPastasi.glb")"
+                                        alt="Dinner Model 1" auto-rotate camera-controls ar shadow-intensity="1"
+                                        camera-orbit="45deg 55deg 2.5m"
+                                        style="width: 100%; height: 100%; background-color: #f9f9f9;">
+                                    </model-viewer>
+                                </div>
+                                <h4>Alman Pastası + Latte <span class="badge bg-danger" style="font-size: 0.6em;">3D</span></h4>
+                                <p class="price">280₺</p>
+                            </div>
+
+                            <div class="col-lg-4 menu-item">
+                                <div class="model-wrapper"
+                                    style="width: 100%; height: 300px; background: #f9f9f9; border-radius: 15px; overflow: hidden; margin-bottom: 15px; display:flex; align-items:center; justify-content:center;">
+
+                                    <img src="@Url.Content("~/assets/img/cayRulo.png")"
+                                        alt="Cay + Rulo Pasta"
+                                        style="max-width:100%; max-height:100%; object-fit:contain;">
+                                </div>
+
+                                <h4>Çay + Rulo Pasta<span class="badge bg-secondary" style="font-size: 0.6em;"></span></h4>
+                                <p class="price">180₺</p>
                             </div>
 
                         </div>
@@ -404,15 +408,14 @@
                             <div class="col-lg-4 menu-item">
                                 <div class="model-wrapper"
                                     style="width: 100%; height: 300px; background: #f9f9f9; border-radius: 15px; overflow: hidden; margin-bottom: 15px;">
-                                    <model-viewer src="@Url.Content("~/assets/models/menu3/lattex.glb")"
-                                        alt="Dinner Model 2" auto-rotate camera-controls ar shadow-intensity="1"
+                                    <model-viewer src="@Url.Content("~/assets/models/menu3/latteSmallx.glb")"
+                                        alt="Dinner Model 1" auto-rotate camera-controls ar shadow-intensity="1"
                                         camera-orbit="45deg 55deg 2.5m"
                                         style="width: 100%; height: 100%; background-color: #f9f9f9;">
                                     </model-viewer>
                                 </div>
-                                <h4>Latte<span class="badge bg-danger" style="font-size: 0.6em;">3D</span>
-                                </h4>
-                                <p class="price">160₺</p>
+                                <h4>Latte <span class="badge bg-danger" style="font-size: 0.6em;">3D</span></h4>
+                                <p class="price">140₺</p>
                             </div>
 
                             <div class="col-lg-4 menu-item">
@@ -524,50 +527,44 @@
                     </div>
                 </div>
             </section>
-            
-            <!-- Stats Section -->
-            <section id="stats" class="stats section dark-background">
 
-                <img src="assets/img/stats-bg.jpg" alt="" data-aos="fade-in">
+            <!-- About Section -->
+            <section id="about" class="about section">
 
-                <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
+                <!-- Section Title -->
+                <div class="container section-title" data-aos="fade-up">
+                    <h2>MyMenu Pastanesi<br></h2>
+                    <p><span>Hakkımızda</span> <span class="description-title"></span></p>
+                </div><!-- End Section Title -->
+
+                <div class="container">
 
                     <div class="row gy-4">
+                        <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
+                            <img src="assets/img/beltur.jpg" class="img-fluid mb-4" alt="">
+                        </div>
+                        <div class="col-lg-5" data-aos="fade-up" data-aos-delay="250">
+                            <div class="content ps-0 ps-lg-5">
+                                <p class="fst-italic">
+                                    Pastanemiz, yılların deneyimi ve ustalığı ile her gün taze üretilen lezzetleri misafirlerimize sunmayı amaçlayan butik bir üretim atölyesidir. Geleneksel tarifleri modern dokunuşlarla birleştiriyor, kalite ve hijyenden ödün vermeden her ürünü özenle hazırlıyoruz. Misafirlerimize sadece lezzet değil, aynı zamanda güven ve samimiyet sunmayı önemsiyoruz.
+                                </p>
+                                <ul>
+                                    <li><i class="bi bi-check-circle-fill"></i> <span>Günlük ve taze üretim</span></li>
+                                    <li><i class="bi bi-check-circle-fill"></i> <span>Doğal ve güvenilir malzeme kullanımı</span></li>
+                                    <li><i class="bi bi-check-circle-fill"></i> <span>Müşteri memnuniyetini ön planda tutmak</span></li>
+                                </ul>
+                                <p>
+                                    Yıllar içinde, sadece pastalarımızla değil, güler yüzlü hizmetimizle de bölgemizin sevilen adreslerinden biri olduk. Her bir tarifimizde, tutku ve emeğin tatla buluşan hikâyesini yaşatmaya devam ediyoruz.
+                                </p>
 
-                        <div class="col-lg-3 col-md-6">
-                            <div class="stats-item text-center w-100 h-100">
-                                <span data-purecounter-start="0" data-purecounter-end="+5" data-purecounter-duration="1"
-                                    class="purecounter"></span>
-                                <p>Farklı Lokasyon</p>
                             </div>
-                        </div><!-- End Stats Item -->
-
-                        <div class="col-lg-3 col-md-6">
-                            <div class="stats-item text-center w-100 h-100">
-                                <span data-purecounter-start="0" data-purecounter-end="+58" data-purecounter-duration="1"
-                                    class="purecounter"></span>
-                                <p>Çalışan</p>
-                            </div>
-                        </div><!-- End Stats Item -->
-
-                        <div class="col-lg-3 col-md-6">
-                            <div class="stats-item text-center w-100 h-100">
-                                <span data-purecounter-start="0" data-purecounter-end="+120" data-purecounter-duration="1"
-                                    class="purecounter"></span>
-                                <p>Tarif</p>
-                            </div>
-                        </div><!-- End Stats Item -->
-
-                        <div class="col-lg-3 col-md-6">
-                            <div class="stats-item text-center w-100 h-100">
-                                <span data-purecounter-start="0" data-purecounter-end="+9000" data-purecounter-duration="1"
-                                    class="purecounter"></span>
-                                <p>Mutlu Müşteri</p>
-                            </div>
-                        </div><!-- End Stats Item -->
+                        </div>
                     </div>
+
                 </div>
-            </section><!-- /Stats Section -->
+
+            </section>
+            <!-- /About Section -->
 
             <!-- Gallery Section -->
             <section id="gallery" class="gallery section light-background">
@@ -686,7 +683,7 @@
                             <div class="info-item d-flex align-items-center" data-aos="fade-up" data-aos-delay="400">
                                 <i class="icon bi bi-envelope flex-shrink-0"></i>
                                 <div>
-                                    <h3>Email</h3>
+                                    <h3>E-posta</h3>
                                     <p>mymenu@menu3d.com</p>
                                 </div>
                             </div>
@@ -712,7 +709,7 @@
                             </div>
 
                             <div class="col-md-6 ">
-                                <input type="email" class="form-control" name="email" placeholder="Email" required="">
+                                <input type="eposta" class="form-control" name="eposta" placeholder="E-posta" required="">
                             </div>
 
                             <div class="col-md-12">

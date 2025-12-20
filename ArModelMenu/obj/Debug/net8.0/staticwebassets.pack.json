@@ -29,6 +29,10 @@
       "PackagePath": "staticwebassets/assets/img/beltur.jpg"
     },
     {
+      "Id": "/Users/salimsahin/Projects/3D_Menus/ArModelMenu/wwwroot/assets/img/cayRulo.png",
+      "PackagePath": "staticwebassets/assets/img/cayRulo.png"
+    },
+    {
       "Id": "/Users/salimsahin/Projects/3D_Menus/ArModelMenu/wwwroot/assets/img/events-1.jpg",
       "PackagePath": "staticwebassets/assets/img/events-1.jpg"
     },
@@ -85,6 +89,14 @@
       "PackagePath": "staticwebassets/assets/img/hero-img.png"
     },
     {
+      "Id": "/Users/salimsahin/Projects/3D_Menus/ArModelMenu/wwwroot/assets/img/latte.png",
+      "PackagePath": "staticwebassets/assets/img/latte.png"
+    },
+    {
+      "Id": "/Users/salimsahin/Projects/3D_Menus/ArModelMenu/wwwroot/assets/img/latteAlman.png",
+      "PackagePath": "staticwebassets/assets/img/latteAlman.png"
+    },
+    {
       "Id": "/Users/salimsahin/Projects/3D_Menus/ArModelMenu/wwwroot/assets/img/logo.png",
       "PackagePath": "staticwebassets/assets/img/logo.png"
     },
@@ -111,6 +123,10 @@
     {
       "Id": "/Users/salimsahin/Projects/3D_Menus/ArModelMenu/wwwroot/assets/img/menu/menu-item-6.png",
       "PackagePath": "staticwebassets/assets/img/menu/menu-item-6.png"
+    },
+    {
+      "Id": "/Users/salimsahin/Projects/3D_Menus/ArModelMenu/wwwroot/assets/img/my_menu.png",
+      "PackagePath": "staticwebassets/assets/img/my_menu.png"
     },
     {
       "Id": "/Users/salimsahin/Projects/3D_Menus/ArModelMenu/wwwroot/assets/img/reservation.jpg",
@@ -191,6 +207,10 @@
     {
       "Id": "/Users/salimsahin/Projects/3D_Menus/ArModelMenu/wwwroot/assets/models/menu3/latte.png",
       "PackagePath": "staticwebassets/assets/models/menu3/latte.png"
+    },
+    {
+      "Id": "/Users/salimsahin/Projects/3D_Menus/ArModelMenu/wwwroot/assets/models/menu3/latteSmallx.glb",
+      "PackagePath": "staticwebassets/assets/models/menu3/latteSmallx.glb"
     },
     {
       "Id": "/Users/salimsahin/Projects/3D_Menus/ArModelMenu/wwwroot/assets/models/menu3/lattex.glb",
