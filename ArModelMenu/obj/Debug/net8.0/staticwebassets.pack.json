@@ -9,10 +9,6 @@
       "PackagePath": "staticwebassets/assets/css/main.css"
     },
     {
-      "Id": "/Users/salimsahin/Projects/3D_Menus/ArModelMenu/wwwroot/assets/img/about-2.jpg",
-      "PackagePath": "staticwebassets/assets/img/about-2.jpg"
-    },
-    {
       "Id": "/Users/salimsahin/Projects/3D_Menus/ArModelMenu/wwwroot/assets/img/about.jpg",
       "PackagePath": "staticwebassets/assets/img/about.jpg"
     },
@@ -31,22 +27,6 @@
     {
       "Id": "/Users/salimsahin/Projects/3D_Menus/ArModelMenu/wwwroot/assets/img/cayRulo.png",
       "PackagePath": "staticwebassets/assets/img/cayRulo.png"
-    },
-    {
-      "Id": "/Users/salimsahin/Projects/3D_Menus/ArModelMenu/wwwroot/assets/img/events-1.jpg",
-      "PackagePath": "staticwebassets/assets/img/events-1.jpg"
-    },
-    {
-      "Id": "/Users/salimsahin/Projects/3D_Menus/ArModelMenu/wwwroot/assets/img/events-2.jpg",
-      "PackagePath": "staticwebassets/assets/img/events-2.jpg"
-    },
-    {
-      "Id": "/Users/salimsahin/Projects/3D_Menus/ArModelMenu/wwwroot/assets/img/events-3.jpg",
-      "PackagePath": "staticwebassets/assets/img/events-3.jpg"
-    },
-    {
-      "Id": "/Users/salimsahin/Projects/3D_Menus/ArModelMenu/wwwroot/assets/img/events-4.jpg",
-      "PackagePath": "staticwebassets/assets/img/events-4.jpg"
     },
     {
       "Id": "/Users/salimsahin/Projects/3D_Menus/ArModelMenu/wwwroot/assets/img/favicon.png",
@@ -125,10 +105,6 @@
       "PackagePath": "staticwebassets/assets/img/menu/menu-item-6.png"
     },
     {
-      "Id": "/Users/salimsahin/Projects/3D_Menus/ArModelMenu/wwwroot/assets/img/my_menu.png",
-      "PackagePath": "staticwebassets/assets/img/my_menu.png"
-    },
-    {
       "Id": "/Users/salimsahin/Projects/3D_Menus/ArModelMenu/wwwroot/assets/img/reservation.jpg",
       "PackagePath": "staticwebassets/assets/img/reservation.jpg"
     },
@@ -201,32 +177,12 @@
       "PackagePath": "staticwebassets/assets/models/menu3/kola.png"
     },
     {
-      "Id": "/Users/salimsahin/Projects/3D_Menus/ArModelMenu/wwwroot/assets/models/menu3/latte.glb",
-      "PackagePath": "staticwebassets/assets/models/menu3/latte.glb"
-    },
-    {
       "Id": "/Users/salimsahin/Projects/3D_Menus/ArModelMenu/wwwroot/assets/models/menu3/latte.png",
       "PackagePath": "staticwebassets/assets/models/menu3/latte.png"
     },
     {
       "Id": "/Users/salimsahin/Projects/3D_Menus/ArModelMenu/wwwroot/assets/models/menu3/latteSmallx.glb",
       "PackagePath": "staticwebassets/assets/models/menu3/latteSmallx.glb"
-    },
-    {
-      "Id": "/Users/salimsahin/Projects/3D_Menus/ArModelMenu/wwwroot/assets/models/menu3/lattex.glb",
-      "PackagePath": "staticwebassets/assets/models/menu3/lattex.glb"
-    },
-    {
-      "Id": "/Users/salimsahin/Projects/3D_Menus/ArModelMenu/wwwroot/assets/models/menu3/leCola.glb",
-      "PackagePath": "staticwebassets/assets/models/menu3/leCola.glb"
-    },
-    {
-      "Id": "/Users/salimsahin/Projects/3D_Menus/ArModelMenu/wwwroot/assets/models/menu3/liptonIcetea.glb",
-      "PackagePath": "staticwebassets/assets/models/menu3/liptonIcetea.glb"
-    },
-    {
-      "Id": "/Users/salimsahin/Projects/3D_Menus/ArModelMenu/wwwroot/assets/models/menu3/redBull.glb",
-      "PackagePath": "staticwebassets/assets/models/menu3/redBull.glb"
     },
     {
       "Id": "/Users/salimsahin/Projects/3D_Menus/ArModelMenu/wwwroot/assets/models/menu3/redBull.png",
@@ -249,20 +205,8 @@
       "PackagePath": "staticwebassets/assets/models/menu4/almanLipton.glb"
     },
     {
-      "Id": "/Users/salimsahin/Projects/3D_Menus/ArModelMenu/wwwroot/assets/models/menu4/eklerCola.glb",
-      "PackagePath": "staticwebassets/assets/models/menu4/eklerCola.glb"
-    },
-    {
-      "Id": "/Users/salimsahin/Projects/3D_Menus/ArModelMenu/wwwroot/assets/models/menu4/frambuazCay.glb",
-      "PackagePath": "staticwebassets/assets/models/menu4/frambuazCay.glb"
-    },
-    {
       "Id": "/Users/salimsahin/Projects/3D_Menus/ArModelMenu/wwwroot/assets/models/menu4/latteAlmanPastasi.glb",
       "PackagePath": "staticwebassets/assets/models/menu4/latteAlmanPastasi.glb"
-    },
-    {
-      "Id": "/Users/salimsahin/Projects/3D_Menus/ArModelMenu/wwwroot/assets/models/menu4/triliceRedBull.glb",
-      "PackagePath": "staticwebassets/assets/models/menu4/triliceRedBull.glb"
     },
     {
       "Id": "/Users/salimsahin/Projects/3D_Menus/ArModelMenu/wwwroot/assets/scss/Readme.txt",
