@@ -81,37 +81,74 @@
         <main class="main">
 
             <!-- Hero Section -->
-            <section id="hero" class="hero section light-background">
 
-                <div class="container">
-                    <div class="row gy-4 justify-content-center justify-content-lg-between">
-                        <div class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center">
-                            <h1 data-aos="fade-up">Her Dilimde Taptaze Bir Mutluluk
-                            <p data-aos="fade-up" data-aos-delay="100">Günlük ürettiğimiz taze pastalarımız, özel tariflerimiz ve sevgiyle hazırlanan lezzetlerimizle her anınızı tatlandırıyoruz.</p>
-                            <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
-                                <a href="#menu" class="btn-get-started">Menü</a>
-                                <a href="https://www.youtube.com/watch?v=4eTIl-IWw8M"
-                                    class="glightbox btn-watch-video d-flex align-items-center"><i
-                                        class="bi bi-play-circle"></i><span>Video İzle</span></a>
-                            </div>
-                        </div>
-                        <div class="col-lg-5 order-1 order-lg-2 hero-img" data-aos="zoom-out">
-        
-                            <model-viewer 
-                                src="@Url.Content("~/assets/models/menu2/almanPastasi.glb")" 
-                                alt="Ana Sayfa 3D Gösterim" 
-                                auto-rotate 
-                                camera-controls 
-                                shadow-intensity="1"
-                                camera-orbit="45deg 55deg auto"
-                                disable-zoom 
-                                style="width: 100%; height: 500px; background-color: transparent;">
-                            </model-viewer>
 
+        <section id="hero" class="hero section light-background" style="min-height: 100vh; display: flex; align-items: center; padding-top: 0; padding-bottom: 30px;">
+
+            <div class="container">
+                <div class="row gy-4 align-items-center justify-content-center justify-content-lg-between">
+
+                    <div class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center">
+
+ 
+
+                        <h1 data-aos="fade-up" class="hero-title">
+                            Her Dilimde <span class="highlight">Taptaze</span> Bir Mutluluk
+                        </h1>
+
+                        <p data-aos="fade-up" data-aos-delay="100" class="hero-description" style="font-size: 1.2rem; font-weight: 300;">
+                            Günlük ürettiğimiz taze pastalarımız, özel tariflerimiz ve sevgiyle hazırlanan lezzetlerimizle her anınızı tatlandırıyoruz.
+                        </p>
+
+                        <div class="d-flex">
+                            <a href="#menu" class="btn-get-started">Menü</a>
+                            <a href="https://www.youtube.com/watch?v=4eTIl-IWw8M"
+                               class="glightbox btn-watch-video d-flex align-items-center">
+                                <i class="bi bi-play-circle"></i><span>Video İzle</span>
+                            </a>
                         </div>
                     </div>
+
+                    <div class="col-lg-5 order-1 order-lg-2 hero-img d-flex flex-column align-items-center justify-content-center" data-aos="zoom-out">
+
+                        <div data-aos="fade-down" data-aos-delay="200" class="dessert-badge-container mb-md-4 position-relative" style="z-index: 10; text-align: center;">
+
+                            <div class="dessert-badge d-inline-flex align-items-center justify-content-center px-md-5 py-md-3 rounded-pill shadow-lg"
+                                 style="background-color: #fff; border: 2px solid rgba(206, 18, 18, 0.1); transition: all 0.3s ease; min-width: 320px;">
+
+                                <div class="badge-icon-wrapper me-3"
+                                     style="width: 45px; height: 45px; background: #ce1212; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 15px rgba(206, 18, 18, 0.5);">
+                                    <i class="bi bi-award-fill text-white" style="font-size: 1.4rem;"></i>
+                                </div>
+
+                                <div class="d-flex flex-column justify-content-center text-start">
+                                    <span class="badge-sup-text text-uppercase fw-bold" style="font-size: 0.8rem; letter-spacing: 2px; color: #ce1212; line-height: 1;">
+                                        AYIN FAVORİSİ
+                                    </span>
+                                    <span class="badge-main-text fw-bold" style="font-size: 1.3rem; color: #37373f; font-family: var(--default-font); white-space: nowrap;">
+                                        Alman Pastası
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div style="position: absolute; bottom: -8px; left: 50%; transform: translateX(-50%); width: 0; height: 0; border-left: 8px solid transparent; border-right: 8px solid transparent; border-top: 8px solid #fff;"></div>
+                        </div>
+
+                        <model-viewer src="@Url.Content("~/assets/models/menu2/almanPastasi.glb")"
+                                      alt="Alman Pastası 3D"
+                                      auto-rotate
+                                      camera-controls
+                                      shadow-intensity="1"
+                                      camera-orbit="45deg 55deg auto"
+                                      disable-zoom
+                                      style="width: 100%; height: 500px; max-height: 55vh; background-color: transparent;">
+                        </model-viewer>
+
+                    </div>
                 </div>
-            </section>
+            </div>
+        </section>
+        
             <!-- /Hero Section -->
 
             <!-- Stats Section -->
@@ -709,7 +746,7 @@
                             </div>
 
                             <div class="col-md-6 ">
-                                <input type="eposta" class="form-control" name="eposta" placeholder="E-posta" required="">
+                            <input type="email" class="form-control" name="eposta" placeholder="E-posta" required="">
                             </div>
 
                             <div class="col-md-12">
